@@ -1,8 +1,8 @@
-# 🛒 BuyNowDotCom – Онлайн маркетплейс
+# Kitap Satış Platformu
 
-Проект представляет собой полноценное приложение электронной коммерции с реализацией **frontend'а на React + Vite** и **backend'а на Spring Boot**.
+Bu proje, kullanıcıların kayıt olup giriş yapabildiği, ardından adres bilgilerini girerek kitap siparişi verebildiği bir e-ticaret uygulamasıdır. Kullanıcılar kitapları inceleyebilir, sipariş oluşturabilir ve çıkış yapabilirler.
 
-## ⚙️ Технологии
+## Teknolojiler
 
 ### Backend (Java, Spring Boot)
 - Spring Boot 3.x
@@ -10,8 +10,8 @@
 - Spring Data JPA
 - Hibernate
 - MySQL
-- JWT (аутентификация)
-- Stripe (платежи)
+- JWT (Kimlik Doğrulama)
+- Stripe (Ödeme Entegrasyonu)
 - Lombok
 
 ### Frontend (React)
@@ -22,11 +22,37 @@
 - Axios
 - Material UI / Bootstrap
 - React Toastify
-- Stripe Integration
+- Stripe Entegrasyonu
 
-## 🚀 Как запустить проект
+## Özellikler
+- Kullanıcı kaydı ve girişi (JWT ile güvenli kimlik doğrulama)
+- Kullanıcı adres bilgisi ekleme ve düzenleme
+- Kitap bilgileri: kategori, fiyat, resim, açıklama vb.
+- Kitap siparişi verme
+- Sipariş takibi
+- Güvenli çıkış yapma (logout)
+- Stripe ile ödeme işlemleri
 
-### 1. Клонировать репозиторий
-```bash
-git clone https://github.com/AbdurahmanKa2003/marketplace.git
-cd marketplace
+## Projeyi Çalıştırma
+
+1. Projeyi klonlayın:
+    ```bash
+    git clone https://github.com/MohamedAbdullaElfaituri/BuyNow.git
+    cd marketplace
+    ```
+
+2. Backend kısmını çalıştırın:
+    ```bash
+    cd backend
+    ./mvnw spring-boot:run
+    ```
+
+3. Frontend kısmını çalıştırın:
+    ```bash
+    cd frontend
+    npm install
+    npm run dev
+    ```
+    
+---
+
