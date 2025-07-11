@@ -38,7 +38,7 @@ Bu proje, kullanıcıların kayıt olup giriş yapabildiği, ardından adres bil
 1. Projeyi klonlayın:
     ```bash
     git clone https://github.com/MohamedAbdullaElfaituri/BuyNow.git
-    cd marketplace
+    cd marketplace-main
     ```
 
 2. Backend kısmını çalıştırın:
